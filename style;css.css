@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+li:hover{
+    background-color:cyan;
+    /* text-transform: uppercase; */
+}
+
+.office{
+    background-image: url("img/37.jpg");
+    background-size: cover;
+}
+
+.room{
+     background-image: url("img/35.jpg");
+    background-size: cover;
+}
+
+.bed{
+     background-image: url("img/34.jpg");
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+.offer:hover{
+    transform: scale(0.8);
+    transition: all 0.9s;
+}
+
+#border{
+    border-bottom: 5px solid black;;
+}
+
+#under:hover{
+ text-decoration: underline;
+}
+
+.icone{
+    width: 100px;
+    padding: 20px;
+}
